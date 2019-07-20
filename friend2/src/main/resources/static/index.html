@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script>
+        function login() {
+            var username = $('#username').val();
+            var password = $('#password').val();
+            var loginUp = {
+                name : username,
+                password : password,
+            };
+            $.ajax({
+                url:'/LoginControl/login',
+                contentType:'application/json',
+                type:'POST',
+                data: JSON.stringify(loginUp),
+                dataType:'json',
+                // asyn:false,
+                success : function (res) {
+                    if(res.username==username&&res.pass==password){
+                        sessionStorage.setItem("userInfo",JSON.stringify(res));//JSON.parse
+                        window.open('/htm/main.html','_self');
+                    }
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+<h2>自定义登录页面</h2>
+
+<form   method="#" id="loginForm">
+
+    <img src="img/img1.jpg" height="482" width="760"/>
+    <table>
+        <tr>
+            <td>用户名：</td>
+            <td><input type="text" name="username" id="username"></td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button type="submit" onclick="login()">登录</button></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
