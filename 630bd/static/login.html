@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:wb="http://open.weibo.com/wb">
+
+<head>
+    <script>
+        if (/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)) { //移动端
+            window.location.href = "/index.html?m=wap";
+        }
+        //读取cookies
+        var setCookie = function (name, value) {
+            var Days = 30;
+            var exp = new Date();
+            exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+            document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString() + ";path=/";
+        }
+        //读取cookies
+        var getCookie = function (name) {
+            var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+            if (arr = document.cookie.match(reg))
+                return unescape(arr[2]);
+            else
+                return null;
+        }
+        if(!getCookie('inited')) {
+            location.href = "/index.html?m=Index&c=Index&a=index&l=en-us";
+        }
+        setCookie('inited','1');
+        setCookie('lang',getCookie('think_language'));
+    </script>
+    <title>youmefor 全球最专业的大型交友，恋爱平台之一，数百万美女帅哥在这里等着你</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="Keywords" content="youmefor 全球最专业的大型交友，恋爱平台之一，数百万美女帅哥在这里等着你" />
+    <meta name="description" content="youmefor 全球最专业的大型交友，恋爱平台之一，数百万美女帅哥在这里等着你" />
+    <link rel="Bookmark" type="image/x-icon" href="/Public/Index/Images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/Public/Index/Images/favicon.ico">
+    <meta property="qc:admins" content="2041450627605241456375" />
+    <meta property="wb:webmaster" content="5095a0b1f6ec9d15" />
+    <link type="text/css" rel="stylesheet" href="/Public/Index/Css/login.css">
+</head>
+
+<body>
+<div class="head">
+    <div class="wrp">
+        <em class="head_logo">
+            <img width="180px" height="45px" src="./Public/Upload/webconf/5ae172de9c2e8.png">
+        </em>
+        <dl class="head_lang">
+            <dd id="head_lang_txt" class="head_lang_txt">简体中文</dd>
+            <dd class="head_lang_arrow"></dd>
+            <dd id="head_lang_viewer" class="head_lang_viewer" style=" height:106px; overflow:hidden;">
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=en-us">English</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=zh-cn">中文简体</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=zh-tw">中文-繁體</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=ja">日本語</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=ko-kr">한국의</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=de">Deutsch</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=es">Español</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=fra">Français</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=it">Italiano</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=nl">Nederlandse</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=pt">Português</a>
+                <a class="head_lang_item" href="/index.html?m=Index&c=Index&a=index&l=ru">Русский</a>
+            </dd>
+        </dl>
+        <button id="head_login">登录</button>
+        <dl class="head_east">
+            <dd style="display: inline-block;vertical-align: top">
+                <input id="name" type="text" value="用户名/邮箱" class="head_input head_input_mask" />                    <input id="pwd" type="password" placeholder="密 码" value="" class="head_input  head_input_mask" />
+            </dd>
+            <dd class="ycode" id="ycode">
+                <input type="text" name="vcode" id="vcode" class="head_input" placeholder="验证码" onkeydown="onlyNum(event,this)">
+                <div class="cap_img_div">
+                    <img id="codeimg" src="/index.html?m=Admin&amp;c=login&amp;a=vcode" onclick="refreshvcode(this.id)">
+                </div>
+            </dd>
+            <dd>
+                <a href="index.html?m=Index&c=Forget&a=index" class="head_find" target="_self">FORGET
+                    PASSWORD</a>
+            </dd>
+        </dl>
+    </div>
+    <script>
+        function refreshvcode(img_id) {
+            $('#' + img_id).attr('src', $('#' + img_id).attr('src') + "/index.html?m=Index&c=Login&a=vCode");
+        }
+
+        function onlyNum(event, obj) {
+            var e = event || window.event;
+            var key;
+            if (window.event) {
+                key = e.keyCode;
+            } else {
+                key = e.which;
+            }
+            if (key != 13 && key != 27 && key != 8 && key != 46) {
+                if (!(key > 95 && key < 106) && !(key > 47 && key < 58) || obj.value.length > 3) {
+                    if (e.preventDefault) {
+                        e.preventDefault();
+                    } else {
+                        e.returnValue = false;
+                    }
+                }
+            }
+        }
+    </script>
+</div>
+<div class="reg" style="background:url(img/5baf304b85f51.jpg) no-repeat center 0 / cover;">
+    <div class="wrp">
+        <div style="float: left;width: 46em;color: white;text-align: center;">
+            <h1 style="padding-top: 4.5em;font-size: 36px;">youmefor is all over the world!</h1>
+            <p style="font-size: 18px;text-indent: 2em;text-align: justify;line-height: 1.4em;">
+                Is the best choice for making friends and chatting.
+                At present, there are 7342785 member users and 12 language automatic translation,
+                and friends around the world easy online communication,
+                a lot of interesting things waiting for you to find out,
+                looking forward to your joining!
+            </p>
+        </div>
+        <form id="reg_form" class="reg_main">
+            <input type="hidden" name="reg_birth" id="reg_birth">
+            <input type="hidden" name="reg_md5pwd" id="reg_md5pwd">
+            <input type="hidden" name="reg_fid" id="reg_fid" value="">
+            <input type="hidden" name="reg_sid" id="reg_sid" value="">
+            <div class="reg_caption">欢迎加入youmefor</div>
+            <table class="reg_table">
+                <tr>
+                    <td class="reg_td0">
+                        <dl id="reg_email_tip"></dl>
+                        邮 箱                    </td>
+                    <td>
+                        <input type="email" class="reg_input" id="reg_email" name="reg_email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="reg_td0">
+                        <dl id="reg_alias_tip"></dl>
+                        用户名                    </td>
+                    <td>
+                        <input type="text" class="reg_input" id="reg_alias" name="reg_alias" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="reg_td0">
+                        <dl id="reg_pwd_tip"></dl>
+                        密 码                    </td>
+                    <td>
+                        <input type="password" class="reg_input" id="reg_pwd" name="reg_pwd" />
+                    </td>
+                </tr>
+                <tr>
+                    <!-- <td class="reg_td0">
+                            <dl id="reg_pwd2_tip" >
+                            </dl>
+                            确认密码                        </td>
+                        <td><input type="password" class="reg_input" id="reg_pwd2" name="reg_pwd2"/></td> -->
+
+                    <td class="reg_td0">
+                        <dl id="reg_pwd2_tip" class="reg_tip" style="right: 347px;display: none;">
+                            <dd class="reg_tip_arrow"></dd>
+                            <dd class="reg_tip_txt" id="reg_tip_txt2"></dd>
+                        </dl>
+                        确认密码                    </td>
+                    <td>
+                        <input type="password" class="reg_input" id="reg_pwd2" name="reg_pwd2" onblur="checkPWD()" />
+                    </td>
+                </tr>
+                <script type="text/javascript">
+                    function checkPWD() {
+                        var PWD = document.getElementById("reg_pwd").value;
+                        var PWD2 = document.getElementById("reg_pwd2").value;
+                        if (PWD != PWD2) {
+                            document.getElementById("reg_pwd2_tip").style.display = "block";
+                            document.getElementById("reg_tip_txt2").innerHTML = "两次输入的密码不一致";
+                        } else {
+                            //alert("ok");
+                        }
+                    }
+                </script>
+                <tr>
+                    <td class="reg_td0">
+                        <dl id="reg_birth_tip"></dl>
+                        生日                    </td>
+                    <td>
+                        <select id="reg_month" name="reg_month">
+                            <option value="-1">月</option>
+
+                        </select>
+                        <select id="reg_day" name="reg_day">
+                            <option value="-1">日</option>
+
+                        </select>
+                        <select id="reg_year" name="reg_year" style="margin-right: 0">
+                            <option value="-1">年</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="reg_td0">性别</td>
+                    <td>
+                        <input id="reg_gender1" checked name="reg_gender" type="radio" value="male">
+                        <label for="reg_gender1">男</label>
+                        <input id="reg_gender2" name="reg_gender" value="female" type="radio">
+                        <label for="reg_gender2">女</label>
+                    </td>
+                </tr>
+            </table>
+            <div id="reg_btn_false" onclick="alert('Registration prohibition');return;">注 册</div>
+            <style>
+                #reg_btn_false {
+                    margin: 20px auto;
+                    padding: 5px 0;
+                    width: 80%;
+                    display: block;
+                    font-size: 18px;
+                    line-height: 25px;
+                    border-radius: 30px;
+                    color: white;
+                    cursor: pointer;
+                    text-align: center;
+                    font-weight: bolder;
+                    border: none;
+                    background-image: -moz-linear-gradient(bottom, #F742A1, #CD0065);
+                    background-image: -webkit-linear-gradient(bottom, #2C56A1, #2C56A1);
+                    background-image: -ms-linear-gradient(bottom, #F742A1, #CD0065);
+                    background-color: #2C56A1;
+                }
+            </style>
+            <div class="reg_bar">
+                <!--<em id="vk_auth" class="reg_auth reg_vk"></em> vk.com 账号登录的界面   NO-->
+                <!--<em id="fb_auth" class="reg_auth reg_fb"></em> facebook.net 账号登录的界面   NO-->
+            </div>
+        </form>
+    </div>
+</div>
+<div class="join">
+    <div class="wrp">
+        <!-- <div class="join_caption">youmefor 全球最专业的大型交友，恋爱平台之一</div> 原来-->
+
+        <div class="encounter_line1">youmefor 全球最专业的大型交友，恋爱平台之一</div>
+        <div class="encounter_line2">数百万美女帅哥在这里等着你</div>
+    </div>
+    <!-- 原来的图片 -->
+    <!-- <div class="join_section" style="background: url(./Public/Upload/webconf/580203ebeef6c.jpg) no-repeat center;"></div>
+     -->
+
+    <div class="join_section" style="height: 260px;">
+        <div id="maq" style="height:240px; width:1000px; overflow:hidden; margin:20px auto;">
+            <table>
+                <tr>
+                    <td id="m1">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="/Public/Upload/header/wu001.jpg" width="196" height="230" />
+                                </td>
+                                <td>
+                                    <img src="/Public/Upload/header/wu002.jpg" width="196" height="230" />
+                                </td>
+                                <td>
+                                    <img src="/Public/Upload/header/wu003.jpg" width="196" height="230" />
+                                </td>
+                                <td>
+                                    <img src="/Public/Upload/header/wu0005.jpg" width="196" height="230" />
+                                </td>
+                                <td>
+                                    <img src="/Public/Upload/header/wu0006.jpg" width="196" height="230" />
+                                </td>
+                                <td>
+                                    <img src="/Public/Upload/header/wu0009.jpg" width="196" height="230" />
+                                </td>
+                                <td>
+                                    <img src="/Public/Upload/header/wu0010.jpg" width="196" height="230" />
+                                </td>
+                                <td>
+                                    <img src="/Public/Upload/header/wu00012.jpg" width="196" height="230" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="m2">
+
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="encounter">
+    <div class="wrp">
+        <div class="encounter_line1">神奇邂逅助手</div>
+        <div class="encounter_line2">智能匹配有缘人 一键邂逅超便捷</div>
+    </div>
+
+    <div class="encounter_section" style="background: url(img/5704c3b33f95a.jpg) no-repeat #fff;"></div>
+</div>
+<div class="fun">
+    <div class="wrp fun_wrp" style="background: url(img/5704c4ebda8d7.jpg) no-repeat left 70px;">
+        <table class="fun_table">
+            <tr>
+                <td colspan="2" class="fun_line1">多语言即时翻译 趣味互动更亲近</td>
+            </tr>
+            <tr>
+                <td class="fun_icon fun_icon1"></td>
+                <td class="fun_line2">12种语言版本，全球多个国家的网友注册，尽情分享世界趣事</td>
+            </tr>
+            <tr>
+                <td class="fun_icon fun_icon2"></td>
+                <td class="fun_line2">多语言即时翻译聊天，消除语言障碍，让你和TA畅所欲言</td>
+            </tr>
+            <tr>
+                <td class="fun_icon fun_icon3"></td>
+                <td class="fun_line2">海量趣味表情随心变，增加聊天趣味，让你与TA更亲近</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="case">
+    <div class="wrp">
+        <div class="case_line1">终于等到你 缘来在这里</div>
+        <div class="case_line2">在这里，我遇见了你，你遇见了我</div>
+        <table class="case_table">
+            <tr>
+                <td>
+                    <div class="case_icon case_icon1"></div>
+                    <div class="case_txt case_txt1">在youmefor，我找到了一群真诚的朋友，提高了自己的外语水平。你也可以像我一样，遇到更多精彩的人哦</div>
+                </td>
+                <td>
+                    <div class="case_icon case_icon2"></div>
+                    <div class="case_txt case_txt2">最开始他只是说了一句你好，而现在他已经成了我的全世界。在youmefor，一切都将成为可能，包括你的爱情</div>
+                </td>
+                <td style="float: right;">
+                    <div class="case_icon case_icon3"></div>
+                    <div class="case_txt case_txt3">幸福永远不会拜访心门紧闭的人，给自己一个机会，找到你命中注定的那个TA</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!--<div class="phone">
+    <div class="wrp phone_wrp"  style="background: url(./Public/Upload/webconf/5802038d7db87.jpg) repeat 0 0;">
+                <table class="phone_table">
+            <tr>
+                <td colspan="2" class="phone_caption">
+                    <div class="phone_line1">移动社交 精彩无限</div>
+                    <div class="phone_line2">全球都可以下载youmefor APP，无论何时，无论何地，你我在此相聚，不再错过每一份精彩！</div>
+                </td>
+            </tr>
+            app 的二维码  图片 + 链接
+            <tr>
+                <td>
+                    <a class="phone_link phone_ios" target="_blank" style="background:url(/Public/Index/Images/app.png) no-repeat ;"
+                       href="https://itunes.apple.com/cn/app/yangxifu/id919483283?mt=8"></a>
+                </td>
+                <td>
+                    <a class="phone_link phone_android" target="_blank" style="background:url(/Public/Index/Images/app.png) no-repeat -200px 0;"
+                       href="https://play.google.com/store/apps/details?id=com.jshon.yangxifu&hl=zh-CN"></a>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</div>-->
+<div class="bottom">
+    Copyright © 2012-2018 youmefor All Rights Reserved&nbsp;&nbsp;&nbsp;|
+    <a id="about_btn0" href="/index.html?m=Index&c=Declare&a=index&item=about">关于我们</a>|
+    <a id="about_btn1" href="/index.html?m=Index&c=Declare&a=index&item=terms">使用条款</a>|
+    <a id="about_btn2" href="/index.html?m=Index&c=Declare&a=index&item=privacy">隐私政策</a>|
+    <a id="about_btn3" href="/index.html?m=Index&c=Declare&a=index&item=safe">交友安全</a>|
+    <a id="about_btn4" href="/index.html?m=Index&c=Declare&a=index&item=help">帮助中心</a>|
+    <a id="about_btn5" href="/index.html?m=Index&c=Declare&a=index&item=contact">联系我们</a>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    document.langCode = "zh";
+    document.i18n = {
+        "tip_alias": "请输入您的姓名",
+        "tip_pwd": "请输入至少6个字符，可以是数字、英文字母、下划线",
+        "tip_email": "请输入您正确的邮箱，可以登陆网站使用",
+        "tip_birth": "请选择您的生日",
+        "tip_email_exist": "邮箱已注册过，请直接登陆或更换其他邮箱",
+        "tip_username_exist": "该用户名已存在",
+        "reg_failed": "注册失败",
+        'being audited': "您的账户正在审核中"
+    };
+</script>
+<script type="text/javascript" charset="utf-8" src="/Public/Index/Js/common.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/Index/Js/login.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/Index/Js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/Index/Js/jquery.md5.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/layer/layer.js"></script>
+<script type="text/javascript">
+    var speed = 200; //滚动速度
+    var maq; //显示区域
+    var m1; //第一份滚动的内容
+    var m2; //第二份滚动的内容（复制的）
+    var timer; //定时器
+    function run() {
+        if (m1.offsetWidth <= maq.scrollLeft) {
+            maq.scrollLeft -= m1.offsetWidth;
+        } else {
+            maq.scrollLeft += 6;
+        }
+    }
+    window.onload = function () {
+        maq = document.getElementById("maq");
+        m1 = document.getElementById("m1");
+        m2 = document.getElementById("m2");
+        m2.innerHTML = m1.innerHTML;
+        if (timer == null) {
+            timer = window.setInterval(run, speed);
+        }
+        maq.onmouseover = function () {
+            window.clearInterval(timer);
+        }
+        maq.onmouseout = function () {
+            timer = window.setInterval(run, speed);
+        }
+    }
+</script>
+<script>
+    // layer.alert(
+    //     'youmefor is all over the world，是交友，聊天的最佳选择。目前已有7342785会员用户，12国语言自动翻译，和全球朋友轻松在线交流，很多趣事等您发现，期待你的加入！<br>youmefor is all over the world, is the best choice for making friends and chatting. At present, there are 7342785 member users and 12 language automatic translation, and friends around the world easy online communication, a lot of interesting things waiting for you to find out, looking forward to your joining!', {
+    //         title: 'message',
+    //         skin: 'layui-layer-lan',
+    //         closeBtn: 0,
+    //         offset: '150px',
+    //         btn: ['OK'],
+    //         anim: 4 //动画类型
+    //     });
+</script>
+</body>
+
+</html>

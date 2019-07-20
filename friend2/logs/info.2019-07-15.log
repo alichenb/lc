@@ -1,0 +1,180 @@
+2019-07-15 20:20:50,364 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 6476 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-15 20:20:50,370 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-15 20:20:52,234 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-15 20:20:52,260 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:20:52,293 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-15 20:20:52,294 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-15 20:20:52,499 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-15 20:20:52,499 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2062 ms
+2019-07-15 20:20:52,595 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-07-15 20:20:52,618 [main] INFO  o.s.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-15 20:21:45,006 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 6856 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-15 20:21:45,011 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-15 20:21:47,558 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-15 20:21:47,581 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:21:47,598 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-15 20:21:47,598 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-15 20:21:47,799 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-15 20:21:47,800 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2708 ms
+2019-07-15 20:21:48,154 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 20:21:48,386 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-15 20:21:48,387 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-15 20:21:48,388 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-15 20:21:48,391 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-15 20:21:48,881 [main] INFO  o.s.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 248709db-8f9d-4267-bb93-e7cdc08055fe
+
+2019-07-15 20:21:49,036 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d9f64c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eed2d86, org.springframework.security.web.header.HeaderWriterFilter@3681037, org.springframework.security.web.csrf.CsrfFilter@37303f12, org.springframework.security.web.authentication.logout.LogoutFilter@4e17913b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3ab6678b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@47fbc56, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@21ac5eb4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@36fc05ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69a2b3b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2de50ee4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52d6cd34, org.springframework.security.web.session.SessionManagementFilter@ffaaaf0, org.springframework.security.web.access.ExceptionTranslationFilter@173797f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65753040]
+2019-07-15 20:21:49,171 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:21:49,205 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-15 20:21:49,210 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 5.886 seconds (JVM running for 7.272)
+2019-07-15 20:22:26,512 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 20:22:26,512 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-15 20:22:26,544 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 32 ms
+2019-07-15 20:34:57,247 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 4440 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-15 20:34:57,265 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-15 20:34:59,226 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-15 20:34:59,245 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:34:59,260 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-15 20:34:59,261 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-15 20:34:59,438 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-15 20:34:59,439 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2102 ms
+2019-07-15 20:35:00,265 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 20:35:00,419 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-15 20:35:00,420 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-15 20:35:00,420 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-15 20:35:00,421 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-15 20:35:00,603 [main] INFO  o.s.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 35011648-4132-4a7f-84eb-7bb3b0cacae3
+
+2019-07-15 20:35:00,703 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@396ef8b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@20134094, org.springframework.security.web.header.HeaderWriterFilter@34acbc60, org.springframework.security.web.csrf.CsrfFilter@4cb40e3b, org.springframework.security.web.authentication.logout.LogoutFilter@692e028d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@73d3e555, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@64469d8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@72825400, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4487c0c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@706fe5c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cd164a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19ee1ae6, org.springframework.security.web.session.SessionManagementFilter@36061cf3, org.springframework.security.web.access.ExceptionTranslationFilter@15dc339f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2af46afd]
+2019-07-15 20:35:00,795 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:35:00,827 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-15 20:35:00,832 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 4.84 seconds (JVM running for 6.207)
+2019-07-15 20:35:26,214 [http-nio-8080-exec-10] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 20:35:26,214 [http-nio-8080-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-15 20:35:26,224 [http-nio-8080-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-07-15 20:36:44,746 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 7192 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-15 20:36:44,750 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-15 20:36:46,521 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-15 20:36:46,541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:36:46,555 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-15 20:36:46,555 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-15 20:36:46,712 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-15 20:36:46,712 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1881 ms
+2019-07-15 20:36:47,613 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 20:36:47,774 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-15 20:36:47,775 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-15 20:36:47,775 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-15 20:36:47,776 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-15 20:36:47,976 [main] INFO  o.s.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8fd1e2a6-51d9-48d4-9f95-d4da7788827a
+
+2019-07-15 20:36:48,099 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50b734c4, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f995afc, org.springframework.security.web.header.HeaderWriterFilter@7b351446, org.springframework.security.web.csrf.CsrfFilter@1f10fec6, org.springframework.security.web.authentication.logout.LogoutFilter@2199e845, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4aebee4b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@55e1192, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2744dcae, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7cf63b9a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9df564f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15d3793b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16d0e521, org.springframework.security.web.session.SessionManagementFilter@a1691c0, org.springframework.security.web.access.ExceptionTranslationFilter@6b37df8e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dd1086]
+2019-07-15 20:36:48,206 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:36:48,244 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-15 20:36:48,249 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 4.41 seconds (JVM running for 7.453)
+2019-07-15 20:36:56,153 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 20:36:56,154 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-15 20:36:56,164 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-07-15 20:48:39,109 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 7680 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-15 20:48:39,115 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-15 20:48:41,078 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-15 20:48:41,099 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:48:41,112 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-15 20:48:41,113 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-15 20:48:41,273 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-15 20:48:41,273 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2071 ms
+2019-07-15 20:48:42,007 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 20:48:42,132 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-15 20:48:42,132 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-15 20:48:42,133 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-15 20:48:42,133 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-15 20:48:42,312 [main] INFO  o.s.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 94194a9b-54ec-4cd8-9814-d6369969136c
+
+2019-07-15 20:48:42,408 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b289ac9, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ca8d498, org.springframework.security.web.header.HeaderWriterFilter@65c86db8, org.springframework.security.web.csrf.CsrfFilter@8a2a6a, org.springframework.security.web.authentication.logout.LogoutFilter@282ffbf5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e1fc2aa, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@706fe5c6, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4eb1c69, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2af46afd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b8280e6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20134094, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73d3e555, org.springframework.security.web.session.SessionManagementFilter@ac20bb4, org.springframework.security.web.access.ExceptionTranslationFilter@47b67fcb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@10358c32]
+2019-07-15 20:48:42,501 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:48:42,541 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-15 20:48:42,546 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 4.81 seconds (JVM running for 6.117)
+2019-07-15 20:50:38,540 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 20:50:38,540 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-15 20:50:38,552 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-07-15 20:53:22,474 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 1440 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-15 20:53:22,480 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-15 20:53:24,411 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-15 20:53:24,431 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:53:24,448 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-15 20:53:24,448 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-15 20:53:24,620 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-15 20:53:24,620 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2079 ms
+2019-07-15 20:53:25,531 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 20:53:25,683 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-15 20:53:25,684 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-15 20:53:25,684 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-15 20:53:25,684 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-15 20:53:25,896 [main] INFO  o.s.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4c856875-8b68-4b6b-bb97-0c4c441f72f8
+
+2019-07-15 20:53:26,070 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d272b0d, org.springframework.security.web.context.SecurityContextPersistenceFilter@70c0a3d5, org.springframework.security.web.header.HeaderWriterFilter@66213a0d, org.springframework.security.web.csrf.CsrfFilter@12c60152, org.springframework.security.web.authentication.logout.LogoutFilter@329a1f8d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a7ad6e5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79316f3a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3727f0ee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a0f53fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@260a3a5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44a6a68e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c448433, org.springframework.security.web.session.SessionManagementFilter@3cb8c8ce, org.springframework.security.web.access.ExceptionTranslationFilter@1835d3ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ec3633f]
+2019-07-15 20:53:26,194 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-15 20:53:26,229 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-15 20:53:26,234 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 5.216 seconds (JVM running for 6.519)
+2019-07-15 20:54:18,885 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 20:54:18,885 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-15 20:54:18,895 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-07-15 21:08:22,705 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 8136 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-15 21:08:22,709 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-15 21:08:24,642 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-15 21:08:24,663 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-15 21:08:24,677 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-15 21:08:24,677 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-15 21:08:24,868 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-15 21:08:24,868 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2038 ms
+2019-07-15 21:08:25,632 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 21:08:25,770 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-15 21:08:25,770 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-15 21:08:25,771 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-15 21:08:25,771 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-15 21:08:25,953 [main] INFO  o.s.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 61db18a1-c3ee-4ceb-b516-827388d5978e
+
+2019-07-15 21:08:26,082 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b1ed14b, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e7c4815, org.springframework.security.web.header.HeaderWriterFilter@1cec219f, org.springframework.security.web.csrf.CsrfFilter@76889e60, org.springframework.security.web.authentication.logout.LogoutFilter@407873d3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@622fdb81, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1317b708, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@690bc15e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@15b82644, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c35af2a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49206065, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bc776b7, org.springframework.security.web.session.SessionManagementFilter@6629ad09, org.springframework.security.web.access.ExceptionTranslationFilter@4c18621b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1174a305]
+2019-07-15 21:08:26,179 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-15 21:08:26,210 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-15 21:08:26,215 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 4.874 seconds (JVM running for 6.982)
+2019-07-15 21:08:50,278 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 21:08:50,278 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-15 21:08:50,292 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-07-15 21:13:24,381 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 7636 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-15 21:13:24,386 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-15 21:13:25,834 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-15 21:13:25,852 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-15 21:13:25,859 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-15 21:13:25,859 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-15 21:13:26,011 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-15 21:13:26,011 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1559 ms
+2019-07-15 21:13:26,757 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-15 21:13:26,885 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-15 21:13:26,885 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-15 21:13:26,886 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-15 21:13:26,886 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-15 21:13:27,062 [main] INFO  o.s.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9aad2e3d-5e30-45c1-a8f3-25d86fd1ab95
+
+2019-07-15 21:13:27,164 [main] INFO  org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d272b0d, org.springframework.security.web.context.SecurityContextPersistenceFilter@70c0a3d5, org.springframework.security.web.header.HeaderWriterFilter@66213a0d, org.springframework.security.web.csrf.CsrfFilter@12c60152, org.springframework.security.web.authentication.logout.LogoutFilter@329a1f8d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a7ad6e5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79316f3a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3727f0ee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a0f53fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@260a3a5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44a6a68e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c448433, org.springframework.security.web.session.SessionManagementFilter@3cb8c8ce, org.springframework.security.web.access.ExceptionTranslationFilter@1835d3ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ec3633f]
+2019-07-15 21:13:27,257 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-15 21:13:27,282 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-15 21:13:27,282 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 4.412 seconds (JVM running for 6.02)
+2019-07-15 21:23:54,072 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-15 21:23:54,073 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-15 21:23:54,085 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms

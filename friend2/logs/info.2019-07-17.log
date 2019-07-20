@@ -1,0 +1,214 @@
+2019-07-17 21:02:28,204 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 4448 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 21:02:28,209 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 21:02:29,874 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 21:02:29,894 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 21:02:29,907 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 21:02:29,908 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 21:02:30,059 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 21:02:30,059 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1788 ms
+2019-07-17 21:02:30,931 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 21:02:31,057 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 21:02:31,071 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 21:02:31,071 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 21:02:31,072 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 21:02:31,072 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 21:02:31,272 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 21:02:31,303 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 21:02:31,307 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 4.32 seconds (JVM running for 6.942)
+2019-07-17 21:02:41,598 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 21:02:41,599 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 21:02:41,611 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-07-17 21:32:21,482 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 4196 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 21:32:21,486 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 21:32:23,674 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 21:32:23,699 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 21:32:23,716 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 21:32:23,716 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 21:32:23,924 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 21:32:23,925 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2349 ms
+2019-07-17 21:32:25,069 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 21:32:25,228 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 21:32:25,247 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 21:32:25,249 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 21:32:25,249 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 21:32:25,250 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 21:32:25,456 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 21:32:25,502 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 21:32:25,509 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 5.662 seconds (JVM running for 8.893)
+2019-07-17 21:32:36,063 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 21:32:36,063 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 21:32:36,074 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-07-17 21:46:25,857 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 3140 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 21:46:25,864 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 21:46:27,801 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 21:46:27,823 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 21:46:27,839 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 21:46:27,840 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 21:46:28,012 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 21:46:28,012 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2076 ms
+2019-07-17 21:46:28,879 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 21:46:29,009 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 21:46:29,026 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 21:46:29,027 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 21:46:29,028 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 21:46:29,029 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 21:46:29,252 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 21:46:29,296 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 21:46:29,302 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 5.072 seconds (JVM running for 6.862)
+2019-07-17 21:46:39,537 [http-nio-8080-exec-3] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 21:46:39,537 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 21:46:39,548 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-07-17 21:48:34,184 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 1444 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 21:48:34,230 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 21:48:36,084 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 21:48:36,107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 21:48:36,122 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 21:48:36,123 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 21:48:36,339 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 21:48:36,340 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2025 ms
+2019-07-17 21:48:37,308 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 21:48:37,440 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 21:48:37,457 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 21:48:37,457 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 21:48:37,458 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 21:48:37,458 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 21:48:37,680 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 21:48:37,714 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 21:48:37,719 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 5.209 seconds (JVM running for 6.721)
+2019-07-17 22:08:11,967 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 22:08:11,967 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 22:08:11,981 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-07-17 22:14:49,798 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 128 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 22:14:49,804 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 22:14:51,946 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 22:14:51,968 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:14:51,984 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 22:14:51,984 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 22:14:52,171 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 22:14:52,171 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2261 ms
+2019-07-17 22:14:53,116 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 22:14:53,242 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 22:14:53,258 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 22:14:53,259 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 22:14:53,260 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 22:14:53,260 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 22:14:53,455 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:14:53,491 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 22:14:53,496 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 5.293 seconds (JVM running for 6.949)
+2019-07-17 22:20:12,086 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 22:20:12,086 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 22:20:12,097 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-07-17 22:25:14,171 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 10236 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 22:25:14,178 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 22:25:16,274 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 22:25:16,293 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:25:16,306 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 22:25:16,307 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 22:25:16,474 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 22:25:16,474 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2211 ms
+2019-07-17 22:25:17,325 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 22:25:17,455 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 22:25:17,477 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 22:25:17,478 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 22:25:17,479 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 22:25:17,479 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 22:25:17,659 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:25:17,694 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 22:25:17,699 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 5.069 seconds (JVM running for 6.507)
+2019-07-17 22:27:56,057 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 22:27:56,058 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 22:27:56,069 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-07-17 22:33:49,633 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 9304 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 22:33:49,641 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 22:33:52,571 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 22:33:52,598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:33:52,616 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 22:33:52,616 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 22:33:52,842 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 22:33:52,844 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2834 ms
+2019-07-17 22:33:53,886 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 22:33:54,056 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 22:33:54,077 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 22:33:54,078 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 22:33:54,079 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 22:33:54,080 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 22:33:54,268 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:33:54,303 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 22:33:54,308 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 6.129 seconds (JVM running for 8.025)
+2019-07-17 22:33:57,783 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 22:33:57,783 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 22:33:57,795 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-07-17 22:35:09,341 [main] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 7392 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 22:35:09,362 [main] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 22:35:12,835 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 22:35:12,865 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:35:12,890 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 22:35:12,891 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 22:35:13,107 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 22:35:13,108 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3559 ms
+2019-07-17 22:35:14,083 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 22:35:14,230 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 22:35:14,246 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 22:35:14,247 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 22:35:14,248 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 22:35:14,249 [main] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 22:35:14,428 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:35:14,463 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 22:35:14,468 [main] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 7.172 seconds (JVM running for 8.99)
+2019-07-17 22:36:18,387 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 22:36:18,387 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 22:36:18,397 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-07-17 22:36:57,710 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-07-17 22:36:58,398 [http-nio-8080-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-07-17 22:45:20,280 [restartedMain] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 9100 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 22:45:20,287 [restartedMain] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 22:45:20,475 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-17 22:45:20,476 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-17 22:45:24,050 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 22:45:24,075 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:45:24,092 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 22:45:24,092 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 22:45:24,284 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 22:45:24,284 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3808 ms
+2019-07-17 22:45:25,427 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 22:45:25,573 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 22:45:25,592 [restartedMain] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 22:45:25,592 [restartedMain] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 22:45:25,593 [restartedMain] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 22:45:25,593 [restartedMain] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 22:45:25,788 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-17 22:45:25,845 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:45:25,884 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 22:45:25,894 [restartedMain] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 7.145 seconds (JVM running for 8.921)
+2019-07-17 22:45:35,546 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 22:45:35,546 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 22:45:35,558 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-07-17 22:45:43,783 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-07-17 22:45:44,419 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-07-17 22:46:42,633 [Thread-20] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-17 22:46:42,634 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-07-17 22:46:42,648 [Thread-20] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-07-17 22:46:43,055 [restartedMain] INFO  com.tyust.friend.FriendApplication - Starting FriendApplication on lichen-PC with PID 9100 (E:\Github\lc\friend2\target\classes started by lichen in E:\Github\lc\friend2)
+2019-07-17 22:46:43,056 [restartedMain] INFO  com.tyust.friend.FriendApplication - No active profile set, falling back to default profiles: default
+2019-07-17 22:46:44,228 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-17 22:46:44,230 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:46:44,230 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-17 22:46:44,231 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-17 22:46:44,276 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-17 22:46:44,277 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1214 ms
+2019-07-17 22:46:44,598 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 22:46:44,656 [restartedMain] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2019-07-17 22:46:44,663 [restartedMain] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-17 22:46:44,664 [restartedMain] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-17 22:46:44,664 [restartedMain] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-17 22:46:44,664 [restartedMain] INFO  tk.mybatis.mapper.autoconfigure.MapperCacheDisabler - Clear EntityHelper entityTableMap cache.
+2019-07-17 22:46:44,744 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-17 22:46:44,780 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-17 22:46:44,787 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-17 22:46:44,788 [restartedMain] INFO  com.tyust.friend.FriendApplication - Started FriendApplication in 1.806 seconds (JVM running for 87.815)
+2019-07-17 22:46:44,792 [restartedMain] INFO  o.s.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-07-17 22:47:01,177 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-17 22:47:01,178 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-17 22:47:01,186 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-07-17 22:47:01,204 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2019-07-17 22:47:01,242 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.

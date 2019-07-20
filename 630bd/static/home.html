@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="Bookmark" type="image/x-icon" href="img/timg.jpg">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script type="text/javascript" charset="UTF-8" src="js/common.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="js/home.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="js/GwxDialog.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="js/GwxFace_0829.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="js/chat.js"></script>
+    <script src="js/GwxPhotoCutter_1126_d.js"></script>
+    <script src="js/GwxPhotoUploader_d.js"></script>
+    <script src="js/d_avatar_d.js"></script>
+    <script src="js/s_about.js"></script>
+
+</head>
+<body>
+    <div class="head">
+        <div class="head_wrap">
+            <em class="head_logo">
+                <img width="180px" height="45px" src="img/timg.jpg">
+            </em>
+            <dl class="head_west">
+                <dd id="head_discover" class="head_link">
+                    <i class="fa fa-home" style="color: blue; font-size: 22px;line-height: 45px">
+                    </i>
+                    <span style="line-height: 43px;">首页</span>
+                </dd>
+                <dd id="head_space_2" class="head_link">
+                    <a class="head_em head_discover_icon"></a>
+                    <span>主页</span>
+                </dd>
+                <dd id="head_chat" class="head_link">
+                    <a class="head_em head_chat_icon"></a>
+                    <span>聊天</span>
+                </dd>
+                <dd id="head_chat_count" class="head_chat_count">
+                    8
+                </dd>
+                <dd id="chat_show" style="display: none;">
+                    <div id="chat_mask" class="chat_mask"></div>
+                    <div class="chat_outer">
+                        <ul id="chat_pane1" style="height: 220px;">
+                            <li id="chat_close"></li>
+                            <li id="chat_west">
+                                <div id="chat_so">
+                                    <input id="chat_so_key" type="text">
+                                    <span id="chat_so_list"></span>
+                                </div>
+                                <div id="chat_list" style="height: 180px;">
+                                    <div class="chat_contact">
+                                        <img src="" class="chat_contact_icon">
+                                        <dl>
+                                            <dd>
+                                                <em class="chat_contact_life chat_contact_life_0">•</em>
+                                                <a class="chat_contact_name"><span style="color:grey">●&nbsp;&nbsp;</span>Tsausula</a>
+                                                <em class="chat_contact_remove"></em>
+                                                <a class="chat_contact_count"></a>
+                                            </dd>
+                                            <dd class="chat_contact_txt">123</dd>
+                                            <dd class="chat_contact_time">2019-06-30</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="chat_empty" style="display: block; height: 300px;"></li>
+                            <li id="chat_east" style="display: none;">	<!--JS，判断是否“聊天中”，聊天时，则 display:block;  显示 “对话”-->
+
+                                <div id="chat_pal">
+
+                                    <img id="chat_pal_icon" src="./Public/Upload/header/15589756295cec148d94d85_80.png">  <!--JS，“聊天中”，好友的 “ 头像，” -->
+
+                                    <ul>
+
+                                        <li>
+
+                                            <em class="chat_pal_m chat_pal_m_1" id="chat_pal_m"></em>   <!-- 类名"chat_pal_m_2"，“皇冠”的图标 --> 				                                                                                                  <!-- 类名"chat_pal_m_1"，“蓝钻”的图标 -->
+
+                                            <span id="chat_pal_name">Tsausula</span>		<!--“聊天中”，好友的 “ 名字” -->
+
+                                        </li>
+
+                                        <li id="chat_pal_about" title="null">Hi</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div id="chat_main" style="height: 34px;">
+
+                                    <a id="chat_history_wrap" class="chat_history_wrap" style="display: block;">
+
+                                        <em class="chat_history_btn"></em>
+
+                                    </a>
+
+                                    <div id="chat_content"><div id="38567" class="chat_msg"><img class="chat_msg_avatar chat_msg_left" src="./Public/Upload/header/15589756295cec148d94d85_40.png"><span class="chat_msg_txt chat_msg_left"><div>月中了誒</div><div class="chat_msg_tr"></div></span><span class="chat_msg_time chat_msg_right">2019-06-16 09:47:05</span><em class="chat_msg_trans chat_msg_right"></em></div><div id="11484" class="chat_msg"><img class="chat_msg_avatar chat_msg_right" src="./Public/Upload/header/15444991515c0f2fcf2373d_40.png"><span class="chat_msg_txt chat_msg_right"><div>是不是該約碰面啦</div><div class="chat_msg_tr"></div></span><span class="chat_msg_time chat_msg_left">2019-06-17 12:37:03</span><em class="chat_msg_trans chat_msg_left"></em></div><div id="38599" class="chat_msg"><img class="chat_msg_avatar chat_msg_left" src="./Public/Upload/header/15589756295cec148d94d85_40.png"><span class="chat_msg_txt chat_msg_left"><div>是不是該約碰面啦</div><div class="chat_msg_tr"></div></span><span class="chat_msg_time chat_msg_right">2019-06-17 12:37:03</span><em class="chat_msg_trans chat_msg_right"></em></div><div id="39030" class="chat_msg"><img class="chat_msg_avatar chat_msg_right" src="./Public/Upload/header/15444991515c0f2fcf2373d_40.png"><span class="chat_msg_txt chat_msg_right"><div>123</div><div class="chat_msg_tr"></div></span><span class="chat_msg_time chat_msg_left">2019-06-30 15:08:49</span><em class="chat_msg_trans chat_msg_left"></em></div></div>
+
+                                </div>
+
+                                <textarea id="chat_input" maxlength="300"></textarea>
+
+                                <div id="chat_bar">
+
+                                    <div id="chat_emotion" class="chat_btn chat_emotion">
+
+                                        <ul id="chat_emotion_viewer" class="chat_emotion_viewer">
+
+                                            <li id="chat_emotion_wrp" class="chat_emotion_wrp">
+
+                                                <div id="chat_emotion_bar" class="chat_emotion_bar">
+
+                                                    <em id="chat_emotion_tl" class="chat_emotion_tb chat_emotion_tl"></em>
+
+                                                    <span id="chat_emotion_tc" class="chat_emotion_tc">
+
+                                                    <div id="chat_emotion_ts"><a class="chat_emotion_ta chat_emotion_tf"><img src="./Public/Index/Images/faces/face1.gif" style="width: 20px;"></a><a class="chat_emotion_ta"><img src="./Public/Index/Images/dada/face1.gif" style="width: 20px;"></a><a class="chat_emotion_ta"><img src="./Public/Upload/sticker/5954d37aac1b6.gif" style="width: 20px;"></a></div>
+
+                                                </span>
+
+                                                    <em id="chat_emotion_tr" class="chat_emotion_tb chat_emotion_tr"></em>
+
+                                                    <em id="chat_emotion_tp" class="chat_emotion_tb chat_emotion_tp"></em>
+
+                                                </div>
+
+                                                <div id="chat_emotion_board" class="chat_emotion_board"><img src="http://www.youmefor.com/Public/Index/Images/faces/face1.gif" title="Smile" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face2.gif" title="Grimace" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face3.gif" title="Drooling" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face4.gif" title="Scowl" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face5.gif" title="Chill" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face6.gif" title="Sob" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face7.gif" title="Shy" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face8.gif" title="Silence" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face9.gif" title="Cry" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face10.gif" title="Embarrassed" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face11.gif" title="On fire" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face12.gif" title="Wink" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face13.gif" title="Grin" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face14.gif" title="Surprised" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face15.gif" title="Sad" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face16.gif" title="Cool" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face17.gif" title="Frightened" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face18.gif" title="Scream" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face19.gif" title="Puke" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face20.gif" title="Chuckle" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face21.gif" title="Lovely" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face22.gif" title="Sneer" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face23.gif" title="Arrogant" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face24.gif" title="Hungry" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face25.gif" title="Drowsy" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face26.gif" title="Panic" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face27.gif" title="Sweating" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face28.gif" title="Laugh" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face29.gif" title="Soldier" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face30.gif" title="Strive" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face31.gif" title="Scold" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face32.gif" title="Confused" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face33.gif" title="Shhh" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face34.gif" title="Hypnotized" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face35.gif" title="Torment" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face36.gif" title="Frustrated" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face37.gif" title="Skull" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face38.gif" title="Hammer" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face39.gif" title="Wave/Bye" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face40.gif" title="Relived" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face41.gif" title="Pick nose" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face42.gif" title="Applause" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face43.gif" title="Flushed" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face44.gif" title="Hellooo" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face45.gif" title="Snub1" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face46.gif" title="Snub2" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face47.gif" title="Yawn" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face48.gif" title="Booo" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face49.gif" title="Distressed" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face50.gif" title="Sniffle" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face51.gif" title="Sly" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face52.gif" title="Pucker" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face53.gif" title="Scared" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face54.gif" title="Pathetic" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face55.gif" title="Petrified" class="gwx_face_face"><img src="http://www.youmefor.com/Public/Index/Images/faces/face56.gif" title="Speechless" class="gwx_face_face"></div>
+
+                                            </li>
+
+                                            <li id="chat_emotion_arrow" class="chat_emotion_arrow"></li>
+
+                                        </ul>
+
+                                    </div>
+
+                                    <div id="chat_camera" class="chat_btn">
+
+                                        <div id="camera_object" style="width: 40px; height: 36px; overflow: hidden; opacity: 0.001; position: absolute; background-color: blue;"><input type="file" accept="image/jpeg,image/jpg,image/bmp,image/png" style="cursor: pointer; width: 500px; height: 36px; margin-left: -200px; opacity: 0;"></div>
+
+                                    </div>
+
+                                    <div id="chat_packet" class="chat_btn">
+
+                                        <div id="packet_object" class="chat_packet">
+
+                                            <em class="r_opt_gold"></em>
+
+                                            <span class="r_opt_section">
+
+                                            <input id="packetValue" class="r_opt_input" type="text"> $
+
+                                            <a class="packet_zj" id="packet_zj">赠送</a>
+
+                                        </span>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div id="chat_gift" class="chat_btn">
+
+                                    </div>
+
+                                    <ul id="chat_camera_viewer">
+
+                                        <li id="chat_camera_close"></li>
+
+                                        <li id="chat_camera_photo"></li>
+
+                                        <li class="chat_arrow"></li>
+
+                                    </ul>
+
+                                    <div id="chat_send">Post</div>
+
+                                    <select id="chat_trans_select">
+
+                                        <option value="-1">不翻译</option><option value="zh-cn">对方语言</option><option value="zh-cn">中文</option><option value="zh-tw">中文-繁体</option><option value="en-us">英文</option><option value="ja">日语</option><option value="ko-kr">韩语</option><option value="de">德语</option><option value="es">西班牙语</option><option value="fra">法语</option><option value="it">意大利语</option><option value="nl">荷兰语</option><option value="pt">葡萄牙语</option><option value="ru">俄语</option></select>
+
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+            <dl class="head_lang">
+
+                <dd id="head_lang_txt" class="head_lang_txt">中</dd>
+
+                <dd class="head_lang_arrow"></dd>
+
+                <dd id="head_lang_viewer" class="head_lang_viewer" style=" height:106px; overflow:hidden;">
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=en-us">English</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=zh-cn">中文简体</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=zh-tw">中文-繁體</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=ja">日本語</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=ko-kr">한국의</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=de">Deutsch</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=es">Español</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=fra">Français</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=it">Italiano</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=nl">Nederlandse</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=pt">Português</a>
+
+                    <a class="head_lang_item" href="/index.php?m=Index&amp;c=Home&amp;a=index&amp;l=ru">Русский</a>
+
+                </dd>
+
+            </dl>
+            <dl class="head_east">
+
+                <!-- 不加图标的“充值”、“升级” -->
+
+                <dd id="head_recharge" class="head_link">
+
+                    <span style="line-height:43px;">充值</span>
+
+                </dd>
+
+                <dd id="head_upgrade" class="head_link" style="margin-right: 15px;">
+
+                    <span style="line-height:43px;">升级</span>
+
+                </dd>
+
+
+
+                <dd id="head_search">
+
+                    <input type="text" id="head_search_key"><em id="head_search_em" class="head_search_em"></em>
+
+
+
+                    <div id="head_search_wrap" style="display: none;">
+
+                        <div class="head_search_arrow"></div>
+
+                        <div id="head_search_result"></div>
+
+                    </div>
+
+                </dd>
+
+                <!--
+
+                <dd id="head_recharge" class="head_pay head_recharge" ></dd>
+
+                <dd id="head_upgrade" class="head_pay head_upgrade" ></dd>
+
+                -->
+
+
+
+                <dd class="head_user">
+
+                    <a id="head_space_1" class="head_profile">
+
+                        <!-- <img id="head_url" class="head_url" /> -->
+
+                        设置
+                        <em class="head_arrow"></em>
+
+                    </a>
+
+                    <ul class="head_submenu">
+
+                        <!--
+
+                        <li id="head_space_2">主页</li>
+
+                        -->
+
+                        <li id="head_contact">
+
+                            <!-- 联系客服 --> 联系我们
+
+                        </li>
+
+
+
+                        <li id="head_Head">头像设置</li>
+
+                        <li id="head_Data"><!-- <a href="http://localhost/yang2/index.php?m=Index&c=Setting&a=index" target="blank" style="text-decoration: none; color:#707070;"> -->资料设置<!-- </a> --></li>
+
+
+
+                        <li id="head_pass">修改密码</li>
+
+
+
+                        <li id="billing_details">账单明细</li>
+
+
+
+                        <a href="index.php?m=Index&amp;c=index&amp;a=logOut" style=" text-decoration:none;">
+
+                            <li id="logout">退出系统</li>
+
+                        </a>
+
+                    </ul>
+
+                </dd>
+
+            </dl>
+        </div>
+    </div>
+</body>
+</html>
