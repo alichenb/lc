@@ -2,250 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>主页</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <script src="../js/jquery-3.4.1.js"></script>
-    <script src="../js/main.js"></script>
-    <style>
+    <title>friend交友平台</title>
+    <!--<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">-->
+    <!--<script src="../js/jquery-3.4.1.js"></script>-->
+    <!--<script src="../js/bootstrap/bootstrap.min.js" ></script>-->
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
-    </style>
-    <script>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 
-    </script>
-
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 <body>
-    <div class="head">
-        <img id="netimg" src="../img/netimg.PNG" height="45" />
-        <dl class="head_left" style="display: inline-block ;line-height: 43px ;position: absolute;top: 5px;left: 130px;margin: 0px">
-            <dd style="float: left" ><span >首页</span></dd>
-            <dd style="float: left"><span>主页</span></dd>
-            <dd style="float: left"><span>聊天</span></dd>
-        </dl>
-        <dl class="head_mid" style="display: inline-block ;line-height: 43px ;position: absolute;top: 5px;right: 80px;margin: 0px">
-            <dd id="head_charge" style="float: left">
-                <span style="line-height: 43px">充值</span>
-            </dd>
-            <dd id="head_upgrade" style="float: left">
-                <span style="line-height: 43px">升级</span>
-            </dd>
-            <dd id="head_search" style="float: left">
-                <input type="text" id="head_search_key">
-                <em id="head_search_em" class="head_search_em"></em>
-                <div id="head_search_wrap" style="display: none;">
-                    <div class="head_search_arrow"></div>
-                    <div id="head_search_result"></div>
-                </div>
-            </dd>
-            <dd class="head_user" style="float: left">
-                <a id="head_space_1" class="head_profile">
-                    <!-- <img id="head_url" class="head_url" /> -->
-                    设置
-                    <em class="head_arrow"></em>
-                </a>
-                <ul class="head_submenu">
-                    <!--
-                    <li id="head_space_2">主页</li>
-                    -->
-                    <li id="head_contact" class="head_set_down">
-                        <!-- 联系客服 --> 联系我们
+    <nav class="navbar navbar-default navbar-inverse " role="navigation">
+        <div class="container-fluid ">
+            <div class="navbar-header">
+                <span class="navbar-brand">friend</span>
+            </div>
+            <div>
+                <ul class="nav navbar-nav " >
+                    <li><button type="button" class="btn btn-primary btn-lg" style="color: rgb(212, 106, 64);margin-left: 5px;margin-right: 5px"><span class="glyphicon glyphicon-home" style="color: rgb(255, 140, 60);"> 首页</span></button></li>
+                    <li><button type="button" class="btn btn-primary btn-lg" style="color: rgb(212, 106, 64);margin-left: 5px;margin-right: 5px"><span class="glyphicon glyphicon-user" style="color: rgb(255, 140, 60);"> 主页</span></button></li>
+                    <li><button type="button" class="btn btn-primary btn-lg" style="color: rgb(212, 106, 64);margin-left: 5px;margin-right: 5px"><span class="glyphicon glyphicon-list-alt" style="color: rgb(255, 140, 60);"> 聊天</span></button></li>
+                    <li><button type="button" class="btn btn-primary btn-lg" style="color: rgb(212, 106, 64);margin-left: 5px;margin-right: 5px"><span class="glyphicon glyphicon-usd" style="color: rgb(255, 140, 60);"> 充值</span></button></li>
+                    <li><button type="button" class="btn btn-primary btn-lg" style="color: rgb(212, 106, 64);margin-left: 5px;margin-right: 5px"><span class="glyphicon glyphicon-arrow-up" style="color: rgb(255, 140, 60);"> 升级</span></button></li>
+                    <li>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control btn-info" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-primary glyphicon glyphicon-search"></button>
+                    </form>
                     </li>
-                    <li id="head_Head" class="head_set_down">头像设置</li>
-                    <li id="head_Data" class="head_set_down"><!-- <a href="http://localhost/yang2/index.php?m=Index&c=Setting&a=index" target="blank" style="text-decoration: none; color:#707070;"> -->资料设置<!-- </a> --></li>
-                    <li id="head_pass" class="head_set_down">修改密码</li>
-                    <li id="billing_details" class="head_set_down">账单明细</li>
-                    <a class="head_set_down" href="index.php?m=Index&amp;c=index&amp;a=logOut" style=" text-decoration:none;">
-                        <li id="logout">退出系统</li>
-                    </a>
+                    <li class="dropdown ">
+                        <button type="button" class="btn btn-info btn-lg" style="color: rgb(212, 106, 64);margin-left: 5px;margin-right: 5px">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                设置<b class="caret"></b><span class="glyphicon glyphicon-cog"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">联系我们</a></li>
+                                <li><a href="#">头像设置</a></li>
+                                <li><a href="#">资料设置</a></li>
+                                <!--<li class="divider"></li>-->
+                                <li><a href="#">修改密码</a></li>
+                                <!--<li class="divider"></li>-->
+                                <li><a href="#">退出系统</a></li>
+                            </ul>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-info btn-lg" style="color: rgb(212, 106, 64);margin-left: 5px;margin-right: 5px">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                中<b class="caret"></b><span class="glyphicon glyphicon-cog"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">english</a></li>
+                            </ul>
+                        </button>
+                    </li>
                 </ul>
-
-            </dd>
-        </dl>
-    </div>
-    <div id="home" class="home" style="display: block;">
-        <div class="wall">
-            <div id="wall_me" class="wall_a">
-                <div class="wall_a_i">
-                    <img id="wall_me_url" src="../img/15624061055d206cd971ddd_80.png">
-                </div>
-                <div class="wall_a_m wall_a_b"></div>
-                <div class="wall_a_plus" style="background: url('../img/img1.jpg') -343px -0px;"></div>
             </div>
-            <div id="wall_list" class="wall_list">
-                <img alt="chienweni168" title="chienweni168" src="../img/img2.jpeg"><img alt="chienweni168" title="chienweni168" src="../img/img3.jpg"><img alt="sam0051" title="sam0051" src="../img/img4.jpeg"><img alt="DIDI12" title="DIDI12" src="../img/img5.jpg"><img alt="kelawol" title="kelawol" src="../img/img6.jpeg"><img alt="Taka" title="Taka" src="../img/img7.jpeg"><img alt="Taka" title="Taka" src="../img/img8.jpg"><img alt="妳的男友" title="妳的男友" src="../img/img9.jpeg"></div>
         </div>
-        <div class="west">
-            <div class="user_wrapper">
-                <div id="user_avatar" class="user_avatar">
-                    <img id="user_url" class="user_url" src="../img/15624061055d206cd971ddd_80.png">
-                </div>
-                <div class="user_list" style="line-height: 35px;">
-                    <div>
-                        <span id="user_name" class="user_name"></span>
-                        <!--链接：<a href="用户的主页" target="_self"> -->
-                        <span id="user_m" class="user_m user_m_2"></span> <!-- “蓝钻” js来增加class=“user_m user_m_1” -->
-                    </div>
-                    <div>
-                        <span id="user_gold" class="user_gold">5728.00</span> <!--  后台显示“账户余额： 0” -->
-                        <span id="user_gold_icon" class="user_m user_gold_icon"></span>
-                    </div>
-                    <div style="display: none;">
-                        <a onclick="znx()" style="cursor:pointer"><img src="/App/Index/687190.png" wdith="22" height="22"></a>
-                    </div>
-                </div>
-            </div>
-            <script>
-                function znx(){
-                    document.getElementById("divM").style.display='block';
-                }
-                function gb(){
-                    document.getElementById("divM").style.display='none';
-                }
-            </script>
-            <style type="text/css">
-                /* 格式化 */
-                #divM {
-                    position: fixed !important;
-                    _position: absolute;
-                    width: 460px;
-                    height: 320px;
-                    top: 45%;
-                    left: 50%;
-                    display: none;
-                    z-index: 99999;
-                    background: url(../img/img9.jpeg);
-                    margin-left: -207px;
-                    margin-top: -135px;
-                    _margin-left: 427px;
-                    _margin-top: 105px;
-                    /*_top: expression(eval(document.documentElement.scrollTop));*/
-                    _left: auto;
-                    /*_right: expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft, 10)||0)-(parseInt(this.currentStyle.marginRight, 10)||0));*/
-                }
-
-                #divM a {
-                    position: absolute;
-                    display: block;
-                }
-
-                #divM #divMagb {
-                    left: 429px;
-                    top: 1px;
-                    width: 30px;
-                    height: 30px
-                }
-
-                #divM #divMa11 {
-                    width: 140px;
-                    height: 40px;
-                    top: 270px;
-                    left: 170px;
-                }
-
-                #divM #divMa12 {
-                    width: 440px;
-                    height: 40px;
-                    top: 270px;
-                    left: 7px;
-                }
-
-                /*  divM  */
-            </style>
-            <div id="divM" style="display: none;" onclick="gb();">
-                <div style="background:#F742A1;border-radius:20px;">
-                    <div style="color:white; padding:10px; text-indent:2em; line-height:26px;">
-                        官方客服，解決用戶的一切問題，出現充值問題，禮物問題，發信息問題，都可以咨詢我們，我們第一時間幫您解決問題，謝謝。
-                        官方客服，解決用戶的一切問題，出現充值問題，禮物問題，發信息問題，都可以咨詢我們，我們第一時間幫您解決問題，謝謝。
-                        官方客服，解決用戶的一切問題，出現充值問題，禮物問題，發信息問題，都可以咨詢我們，我們第一時間幫您解決問題，謝謝。
-                        官方客服，解決用戶的一切問題，出現充值問題，禮物問題，發信息問題，都可以咨詢我們，我們第一時間幫您解決問題，謝謝。
-                    </div>
-                </div>
-            </div>
-            <!-- 会员动态 -->
-            <div class="nav" id="user_dongtai" style="display:none">
-                <div id="nav_first" class="nav_item nav_focus" title="会员动态">
-                    <em class="nav_first"></em><a><span> 会员动态 </span></a>
-                </div>
-                <style>
-                    #user_dongtai{}
-                    #user_dongtai .tempWrap1{margin:10px}
-                    #user_dongtai .tempWrap1{height:240px;overflow:hidden;}
-                    #user_dongtai ul li{padding:10px 0}
-                    #user_dongtai ul div{display:inline-block;height:60px;overflow:hidden;vertical-align:middle;}
-                    #user_dongtai ul div.regleft{width:30%;margin-right:7%;}
-                    #user_dongtai ul div.regleft img{width:100%;height:100%;}
-                    #user_dongtai ul div.regright{width:63%;}
-                    #user_dongtai ul div.regright h3{font-weight:100;font-size:12px;padding-top:4px;height:30px;line-height:30px;overflow:hidden;color:#666;}
-                    #user_dongtai ul div.regright p{font-weight:100;font-size:12px;color:#666;}
-                </style>
-                <div class="tempWrap1">
-                    <ul>
-                    </ul>
-                </div>
-            </div>
-            <!-- <script type="text/javascript"> -->
-            <!-- // 无缝滚动 -->
-            <!-- jQuery("#user_dongtai").slide({mainCell:"ul",autoPlay:true,effect:"topMarquee",vis:3,interTime:50,trigger:"click"}); -->
-            <!-- </script> -->
-            <!-- 会员动态 end -->
-            <div class="nav">
-                <div id="nav_first1" class="nav_item nav_focus" title="最新动态">
-                    <em class="nav_first"></em><a><span> 最新动态 </span></a>
-                </div>
-                <div id="nav_encounter" class="nav_item" title="邂逅游戏">
-                    <em class="nav_encounter"></em><a><span> 邂逅游戏 </span></a>
-                    <b id="note_count_encounter1" style="display: none;">0</b>
-                    <!--  js来显示消息个数  style="display:block;" -->
-                </div>
-                <!-- 好友 -->
-                <!-- <div id="nav_friends" class="nav_item" title="好友">
-                <em class="nav_favor"></em><a>
-                <span>好友</span></a>
-            </div> -->
-                <div id="nav_favor" class="nav_item nav_hover" title="好友">
-                    <em class="nav_favor"></em><a><span>好友</span></a>
-                    <b style="display: none;" id="note_count_encounter">0</b>
-                </div>
-                <div id="nav_visitor" class="nav_item" title="访客">
-                    <em class="nav_visitor"></em><a><span> 访客 </span></a>
-                    <b id="note_count_visitor" style="display:block;">1</b> <!--  js来显示消息个数  style="display:block;" -->
-                </div>
-            </div>
-            <div class="nav">
-                <!-- 礼物商店 -->
-                <div id="nav_Giftall" class="nav_item" title="礼物商店">
-                    <em class="nav_flower"></em><a><span>礼物商店</span></a>
-                </div>
-                <div id="nav_sticker" class="nav_item" title="表情商店">
-                    <em class="nav_sticker"></em><a><span>表情商店</span></a>
-                </div>
-                <div id="nav_box" class="nav_item" title="礼物盒子">
-                    <em class="nav_box"></em><a><span>礼物盒子</span></a>
-                    <b id="note_count_gift" style="display: none;">0</b>
-                </div>
-                <!-- 真实礼物
-            <div id="nav_flower" class="nav_item" title="真实礼物">
-                <em class="nav_flower"></em><a><span>真实礼物</span></a>
-            </div>
-            情人节礼物
-            <div id="nav_valentine" class="nav_item" title="情人节礼物">
-                <em class="nav_valentine"></em><a><span>情人节礼物</span></a>
-            </div>
-            表情商店
-            <div id="nav_sticker" class="nav_item" title="表情商店">
-                <em class="nav_sticker"></em><a><span>表情商店</span></a>
-            </div> -->
-            </div>
-            <div id="west_upgrade" class="west_upgrade">升级</div>
-            <div id="west_sticker" class="west_sticker">
-                <a class="west_sticker_btn">给聊天增加点乐趣吧</a>
-            </div>
-            <div id="west_upload" class="west_upload">完 善 头 像</div>
+    </nav>
+        <div style="margin: 0 auto ;width: 850px;border: 2px solid;background-color: ghostwhite">
+            <img src="../img/img2.jpeg" height="81" width="81" class="img-thumbnail"/>
+            <img src="../img/img1.jpg" height="81" width="81" class="img-thumbnail"/>
+            <img src="../img/img3.jpg" height="81" width="81" class="img-thumbnail"/>
+            <img src="../img/img4.jpeg" height="81" width="81" class="img-thumbnail"/>
+            <img src="../img/img5.jpg" height="81" width="81" class="img-thumbnail"/>
+            <img src="../img/img6.jpeg" height="81" width="81" class="img-thumbnail"/>
+            <img src="../img/img7.jpeg" height="81" width="81" class="img-thumbnail"/>
+            <img src="../img/img8.jpg" height="81" width="81" class="img-thumbnail"/>
+            <img src="../img/img9.jpeg" height="81" width="81" class="img-thumbnail"/>
+            <img src="../img/netimg.PNG" height="81" width="81" class="img-thumbnail"/>
         </div>
-        <div class="center">
-            <iframe id="center_ifm" name="center_ifm" frameborder="0" class="center_ifm" src="index.php?m=Index&amp;c=first&amp;a=index&amp;id=89" style="height: 1901px;"></iframe>
-        </div>
-    </div>
 </body>
 </html>
